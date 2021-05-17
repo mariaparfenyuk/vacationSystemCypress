@@ -1,0 +1,28 @@
+{
+  "name": "vacation-system-cypress",
+  "version": "1.0.0",
+  "description": "test framework with cypress",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^7.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "cy:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariaparfenyuk/vacationSystemCypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "framework",
+    "e2e"
+  ],
+  "author": "Maria Parfenyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariaparfenyuk/vacationSystemCypress/issues"
+  },
+  "homepage": "https://github.com/mariaparfenyuk/vacationSystemCypress#readme"
+}
