@@ -24,7 +24,7 @@ context('Assertions', () => {
       cy.get('#save').should('contain', 'Save')
     })
 
-    it('Add vacation valid vacation', () => {
+    it('Add valid vacation', () => {
       cy.get('#add-new-vac').click()
       cy.get('span.mdl-checkbox__ripple-container.mdl-js-ripple-effect.mdl-ripple--center').click()
       cy.get('input#from.mdl-textfield__input')
